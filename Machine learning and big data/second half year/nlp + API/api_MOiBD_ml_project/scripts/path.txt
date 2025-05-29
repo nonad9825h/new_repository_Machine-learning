@@ -1,0 +1,9 @@
+# статьи
+uvicorn scripts.art.main_a:app
+uvicorn scripts.art.main_a:app --reload
+streamlit run scripts/art/app_streamlit_a.py
+
+# кино
+uvicorn scripts.kino.main_k:app
+uvicorn scripts.kino.main_k:app --reload
+streamlit run scripts/kino/app_streamlit_k.py
